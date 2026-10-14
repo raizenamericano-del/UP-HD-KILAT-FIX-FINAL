@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- KilatHD "Petir" — flat/maskable (oleh Rifky) -->
+  <defs>
+    <linearGradient id="bolt" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#fefce8"/>
+      <stop offset="0.55" stop-color="#fde047"/>
+      <stop offset="1" stop-color="#facc15"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#0d0a1c"/>
+  <circle cx="256" cy="256" r="176" fill="#a855f7" opacity="0.18"/>
+  <path d="M304 96 168 288h84l-22 128 150-216h-100l24-104z" fill="url(#bolt)"/>
+</svg>

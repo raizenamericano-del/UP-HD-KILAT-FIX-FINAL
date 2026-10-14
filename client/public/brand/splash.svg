@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920">
+  <!-- KilatHD — splash PWA (oleh Rifky) -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#120d26"/>
+      <stop offset="1" stop-color="#070512"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="0.5" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#d946ef"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#fefce8"/>
+      <stop offset="0.55" stop-color="#fde047"/>
+      <stop offset="1" stop-color="#facc15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.4">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+  <rect width="1080" height="1920" fill="url(#glow)"/>
+  <g transform="translate(330,620)">
+    <rect x="0" y="0" width="420" height="420" rx="104" fill="#0d0a1c" stroke="#2a1f4d" stroke-width="7"/>
+    <circle cx="210" cy="210" r="158" fill="none" stroke="url(#core)" stroke-width="15" stroke-linecap="round" stroke-dasharray="224 118 53 118" opacity="0.9"/>
+    <path d="M250 66 132 237h72l-20 119 132-191h-85l19-99z" fill="url(#core)"/>
+    <path d="M240 99 164 230h52l-13 79 92-138h-56l19-72z" fill="url(#bolt)"/>
+  </g>
+  <text x="540" y="1180" text-anchor="middle" font-family="sans-serif" font-size="96" font-weight="900" fill="#ffffff" letter-spacing="10">KILAT HD</text>
+  <text x="540" y="1240" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#c4b5fd" letter-spacing="12">STUDIO PETIR</text>
+</svg>
